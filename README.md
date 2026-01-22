@@ -1,4 +1,4 @@
-# Project: Machine-learning-lab1 — Scenario Notebooks
+# Machine-learning-lab1
 
 - SCENARIO_1_E_commerce_Sales_Data
   E‑commerce sales data exploration and top-product analysis.  
@@ -6,12 +6,12 @@
 
 - SCENARIO_2_Hospital_Patient_Records
   Patient records (Pima Indians diabetes) exploratory analysis.  
-  Description: Uses the Pima Indians Diabetes dataset to perform EDA: prints head/info/describe, inspects distributions and spread (histogram of Glucose, boxplot of Age, etc.). Useful for demonstrating clinical dataset inspection and basic single-variable visualizations. Dependencies: pandas, numpy, matplotlib. Dataset in `/kaggle/input/pima-indians-diabetes-database/diabetes.csv` in the notebook.
+  Description: Uses the Pima Indians Diabetes dataset to perform EDA: prints head/info/describe, inspects distributions and spread (histogram of Glucose, boxplot of Age, etc.). Useful for demonstrating clinical dataset inspection and basic single-variable visualizations. Dependencies: pandas, numpy, matplotlib. Dataset in the notebook.
 
 - scenario_3_housing
   Housing dataset — EDA, scatter plots and correlation heatmap.  
-  Description: Loads `Housing.csv`, shows dataset schema and summary statistics, checks for missing values, plots Area vs Price scatter and a numeric-feature correlation heatmap. Designed to illustrate feature relationships and simple visual diagnostics prior to modeling. Dependencies: pandas, matplotlib.
+  Description: Loads, shows dataset schema and summary statistics, checks for missing values, plots Area vs Price scatter and a numeric-feature correlation heatmap. Designed to illustrate feature relationships and simple visual diagnostics prior to modeling. Dependencies: pandas, matplotlib.
 
 - SCENARIO_4_Banking_Customer_Data
   Customer personality / marketing campaign data exploration.  
-  Description: Loads the marketing campaign dataset (`marketing_campaign.csv`), presents head/info/describe, lists missing values, and includes various descriptive statistics and visual checks. Demonstrates customer-level EDA useful for segmentation and response modeling tasks. The notebook includes a `kagglehub` dataset download step but also reads the file from a Kaggle input path.
+  Description: Loads the marketing campaign dataset presents head/info/describe, lists missing values, and includes various descriptive statistics and visual checks. Demonstrates customer-level EDA useful for segmentation and response modeling tasks. The notebook includes a dataset download step but also reads the file from a Kaggle input path.
